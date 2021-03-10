@@ -1,2 +1,34 @@
 /* Hoja de Estilos Proyecto */
+
+/* Estilos Generales*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #3338;
+}
+
 /* Autor: Agostina Zampino */

@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
-    <footer>
+    <!-- nav>a.brand+button.button+(ul>li*4>a{Link $}[href="#"])+a.back -->
+    <nav>
+        <a class="brand" href="#"></a>
+        <button class="button">&equiv;</button>
+        <ul>
+            <li><a class="icon-home" href="#" title="inicio"><span>Inicio</span></a></li>
+            <li><a class="icon-about" href="about.html" title="acerca"><span>Acerca</span></a></li>
+            <li><a class="icon-gallery" href="gallery.html" title="galeria"><span>Galeria</span></a></li>
+            <li><a class="icon-contact" href="#contact" title="contacto"><span>Contacto</span></a></li>
+        </ul>
+        <a class="back" href=""></a>
+    </nav>
+    <!-- header#header>h1{Curso Git}+p{Desarrollo colaborativo} -->
+    <header id="header">
+        <div class="header">
+            <h1>Curso Git</h1>
+            <p>Desarrollo Colaborativo</p>
+            <div class="slide">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul class="slide">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </header>
+    <!-- main>(header.header>h2{Caracteristicas principales})+p{lorem100} -->
+    <main>
+        <header class="header">
+            <h2>Caracteristicas principales</h2>
+        </header>
+        <p>
+            Elit nulla iure pariatur perferendis atque Recusandae itaque debitis placeat tenetur ea dignissimos
+            Recusandae quod earum hic dolore blanditiis eius voluptatem Itaque sit ea doloremque repellendus similique
+            itaque Ullam incidunt eius velit sunt saepe expedita cupiditate itaque? Ut similique blanditiis obcaecati
+            odio corporis? Ab ut dignissimos nemo doloremque mollitia Nobis culpa aperiam quaerat voluptatem vel unde
+            voluptatum Autem voluptatem non molestiae eligendi nam. Impedit fugiat aliquam fuga deleniti dolor vel!
+            Labore voluptates quas nulla repellendus eius Maiores laudantium ullam libero laborum debitis veritatis
+            Quaerat odit at quos voluptatem ipsam? Quasi eos esse nostrum odio aspernatur Sunt doloremque corporis minus
+            non.
+        </p>
+    </main>
+    <!-- footer#footer>(.social>a.*4[href="https://.com" target="_blank"])+(form#contact>h2{Contactanos})+p{&copy; Todos los derechos reservados}>a[href="#"]{Cristian Racedo}+{ &amp; Compañia} -->
+    <footer id="footer">
         <div class="social">
-            <a href="" target="_blank"></a>
-            <a href="" target="_blank"></a>
-            <a href="" target="_blank"></a>
-            <a href="" target="_blank"></a>
+            <a href="https://facebook.com/" target="_blank"></a>
+            <a href="https://instagram.com/" target="_blank"></a>
+            <a href="https://twitter.com/" target="_blank"></a>
+            <a href="https://api.whatsapp.com/" target="_blank"></a>
         </div>
         <form id="contact" action="">
             <h2>Contactanos</h2>
+            <!-- (label+input+.validate)*3+label+textarea+button -->
+            (label+input+.validate)*3+label+textarea+button.button
         </form>
-        <p>&copy; Todos los derechos reservados <a href="#">Agostina</a></p>
+        <p>&copy; Todos los derechos reservados
+            <a href="#">Cristian Racedo</a>
+            &amp; compañia
+        </p>
     </footer>
 </body>
+
 </html>
